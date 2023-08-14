@@ -1,0 +1,70 @@
+Windows fatal exception: access violation
+
+Thread 0x00003b14 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\common.py", line 772 in read_one_incoming_message_str
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\running.py", line 1238 in _listen_stderr
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 953 in run
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00001dc8 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\common.py", line 772 in read_one_incoming_message_str
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\running.py", line 1198 in _listen_stdout
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 953 in run
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00005a14 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\socket.py", line 293 in accept
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\workbench.py", line 546 in server_loop
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 953 in run
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 973 in _bootstrap
+
+Current thread 0x00003b20 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\misc_utils.py", line 478 in _copy_to_windows_clipboard
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\misc_utils.py", line 433 in copy_to_clipboard
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\workbench.py", line 2387 in destroy
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\workbench.py", line 2337 in _on_close
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\tkinter\__init__.py", line 1921 in __call__
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\tkinter\__init__.py", line 1458 in mainloop
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\__init__.py", line 256 in launch
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\__main__.py", line 4 in <module>
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\runpy.py", line 86 in _run_code
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\runpy.py", line 227 in run_module
+  File "<string>", line 3 in <module>
+Windows fatal exception: access violation
+
+Thread 0x00003b14 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\common.py", line 772 in read_one_incoming_message_str
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\running.py", line 1238 in _listen_stderr
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 953 in run
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00001dc8 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\common.py", line 772 in read_one_incoming_message_str
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\running.py", line 1198 in _listen_stdout
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 953 in run
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00005a14 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\socket.py", line 293 in accept
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\workbench.py", line 546 in server_loop
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 953 in run
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\threading.py", line 973 in _bootstrap
+
+Current thread 0x00003b20 (most recent call first):
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\misc_utils.py", line 479 in _copy_to_windows_clipboard
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\misc_utils.py", line 433 in copy_to_clipboard
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\workbench.py", line 2387 in destroy
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\workbench.py", line 2337 in _on_close
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\tkinter\__init__.py", line 1921 in __call__
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\tkinter\__init__.py", line 1458 in mainloop
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\__init__.py", line 256 in launch
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\site-packages\thonny\__main__.py", line 4 in <module>
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\runpy.py", line 86 in _run_code
+  File "C:\Users\lukas.jalcak\Documents\Tutorials\100 Days of Code The Complete Python Pro Bootcamp for 2023\Downloads\thonny-4.1.1-windows-portable\lib\runpy.py", line 227 in run_module
+  File "<string>", line 3 in <module>
